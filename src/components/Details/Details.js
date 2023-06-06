@@ -13,15 +13,23 @@ const Details = () => (
         Main content
     </div>
 
+    <div className="area" >
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
     <Navbar />
 
-    <div class='ripple-background'>
-      <div class='circle xxlarge shade1'></div>
-      <div class='circle xlarge shade2'></div>
-      <div class='circle large shade3'></div>
-      <div class='circle mediun shade4'></div>
-      <div class='circle small shade5'></div>
-    </div>
   </div>
 
 

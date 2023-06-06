@@ -8,20 +8,20 @@ const Home = () => (
   <div>
     <div className='content-box'>
       Hello, fellow humans!
-      <div class='container'>
+      <div className='container'>
         <ul>
           <li>
             <Link to="/details" style={{textDecoration: 'none'}}>
-              <div class='animated-arrow'>
-                <span class='the-arrow -left'>
-                  <span class='shaft'></span>
+              <div className='animated-arrow'>
+                <span className='the-arrow -left'>
+                  <span className='shaft'></span>
                 </span>
-                  <span class='main'>
-                      <span class='text'>
+                  <span className='main'>
+                      <span className='text'>
                         Know more about me
                       </span>
-                    <span class='the-arrow -right'>
-                      <span class='shaft'></span>
+                    <span className='the-arrow -right'>
+                      <span className='shaft'></span>
                     </span>
                   </span>
               </div>
@@ -31,23 +31,22 @@ const Home = () => (
       </div>
 
     </div>
-    <div class="wrapper">
-      {/* <h1>Hello, fellow humans!</h1> */}
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
+    <div className="wrapper">
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
+      <div><span className="dot"></span></div>
     </div>
   </div>
 );
