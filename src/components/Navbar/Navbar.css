@@ -22,4 +22,6 @@
     height: 100%;
 }
 
-
+.nav-item-wrapper {
+    cursor: pointer;
+}
